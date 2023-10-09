@@ -1,0 +1,40 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-text {
+    display: none;
+  }
+  .avatar {
+    display: none;
+  }
+  .nav-name {
+    display: none !important;
+  }
+  .nav-5 {
+    border-right: none;
+  }
+  /* JOB-INFO */
+  .container-3 {
+    display: grid;
+    padding-right: 25px;
+    padding-left: 25px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* CERTIFICATE */
+  .certificate-1 {
+    display: block;
+  }
+  .certificate-2 {
+    display: block;
+  }
+  .text {
+    padding-top: 20px;
+  }
+  .certificate-3 {
+    display: block;
+  }
+  /* PROJECT */
+  .project-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
